@@ -16,7 +16,7 @@ try:
     dac = [26, 19, 13, 6, 5, 11, 9, 10]
     RT.setmode(RT.BCM)
     RT.setup(dac, RT.OUT)
-    t = int(input())
+    t = float(input())
 
     delta = 1
     i = 0
