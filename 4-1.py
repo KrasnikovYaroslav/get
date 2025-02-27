@@ -37,7 +37,7 @@ try:
             num_listed = dec_to_bin_list(num)
             RT.output(dac, num_listed)
 
-            print(num / 256 * 3.3)
+            print("Expected voltage: ", num / 256 * 3.3)
 
         
 
